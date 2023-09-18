@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: alexkang
+      url-base: https://github.com/alexkang
+  projects:
+    - name: zmk
+      remote: alexkang
+      revision: microdox_v2
+      import: app/west.yml
+  self:
+    path: config
